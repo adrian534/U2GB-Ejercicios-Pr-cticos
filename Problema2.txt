@@ -1,5 +1,10 @@
+package ejerciciosPracticos;
 import java.io.*;
 import java.util.Scanner;
+/**
+ *
+ * @author joel adrian caballlero lugo
+ */
 
 class NodoPalabra {
     String palabra;
@@ -89,3 +94,4 @@ public class Problema2 {
         System.out.println("Archivo actualizado exitosamente.");
     }
 }
+
