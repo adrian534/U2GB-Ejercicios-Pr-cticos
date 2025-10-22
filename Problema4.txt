@@ -1,4 +1,10 @@
+package ejerciciosPracticos;
 import java.util.*;
+/**
+ *
+ * @author joel adrian caballlero lugo
+ */
+
 
 class NodoCircular {
     double coef;
@@ -53,3 +59,4 @@ public class Problema4 {
         lista.mostrar();
     }
 }
+
