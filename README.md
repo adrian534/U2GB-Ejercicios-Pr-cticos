@@ -2,7 +2,7 @@
 ## joel Adrian Caballero lugo 
 
 
-## 📘 Actividades de Listas Enlazadas
+
 
 ## 📘 Actividades de Listas Enlazadas
 
