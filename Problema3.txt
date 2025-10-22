@@ -1,4 +1,11 @@
+
+package ejerciciosPracticos;
 import java.util.*;
+/**
+ *
+ * @author joel adrian caballlero lugo
+ */
+
 
 class NodoPoli {
     double coef;
@@ -56,3 +63,4 @@ public class Problema3 {
         }
     }
 }
+
