@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+class NodoDoble {
+    char c;
+    NodoDoble ant, sig;
+
+    public NodoDoble(char c) {
+        this.c = c;
+    }
+}
+
+public class Problema5 {
+    private NodoDoble inicio, fin;
+
+    public void insertar(char c) {
+        NodoDoble nuevo = new NodoDoble(c);
+        if (inicio == null) {
+            inicio = fin = nuevo;
+        } else {
+            fin.sig = nuevo;
+            nuevo.ant = fin;
+            fin = nuevo;
+        }
+    }
+
+    public void ordenar() {
+        for (NodoDoble i = inicio; i != null; i = i.sig) {
+            for (NodoDoble j = i.sig; j != null; j = j.sig) {
+                if (i.c > j.c) {
+                    char temp = i.c;
+                    i.c = j.c;
+                    j.c = temp;
+                }
+            }
+        }
+    }
+
+    public void mostrar() {
+        for (NodoDoble aux = inicio; aux != null; aux = aux.sig)
+            System.out.print(aux.c + " ");
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Problema5 lista = new Problema5();
+
+        System.out.print("Ingrese una cadena: ");
+        String cadena = sc.nextLine();
+
+        for (char c : cadena.toCharArray()) {
+            lista.insertar(c);
+        }
+
+        System.out.println("Lista original:");
+        lista.mostrar();
+
+        lista.ordenar();
+
+        System.out.println("Lista ordenada:");
+        lista.mostrar();
+    }
+}

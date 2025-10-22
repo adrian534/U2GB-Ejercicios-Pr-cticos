@@ -1,0 +1,58 @@
+import java.util.*;
+
+class NodoPoli {
+    double coef;
+    int exp;
+    NodoPoli sig;
+
+    public NodoPoli(double coef, int exp) {
+        this.coef = coef;
+        this.exp = exp;
+    }
+}
+
+public class Problema3 {
+    private NodoPoli inicio;
+
+    public void insertar(double coef, int exp) {
+        NodoPoli nuevo = new NodoPoli(coef, exp);
+        if (inicio == null) inicio = nuevo;
+        else {
+            NodoPoli aux = inicio;
+            while (aux.sig != null)
+                aux = aux.sig;
+            aux.sig = nuevo;
+        }
+    }
+
+    public double evaluar(double x) {
+        double resultado = 0;
+        NodoPoli aux = inicio;
+        while (aux != null) {
+            resultado += aux.coef * Math.pow(x, aux.exp);
+            aux = aux.sig;
+        }
+        return resultado;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Problema3 poli = new Problema3();
+
+        System.out.println("Ingrese coeficiente y exponente (terminar con exponente negativo):");
+        while (true) {
+            System.out.print("Coeficiente: ");
+            double c = sc.nextDouble();
+            System.out.print("Exponente: ");
+            int e = sc.nextInt();
+            if (e < 0) break;
+            poli.insertar(c, e);
+        }
+
+        System.out.println("\nTabla de valores:");
+        System.out.println("x\tP(x)");
+        for (double x = 0.0; x <= 5.0; x += 0.5) {
+            System.out.printf("%.1f\t%.2f%n", x, poli.evaluar(x));
+        }
+    }
+}
