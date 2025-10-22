@@ -1,5 +1,9 @@
+package ejerciciosPracticos;
 import java.util.Scanner;
-
+/**
+ *
+ * @author joel adrian caballlero lugo
+ */
 class NodoDoble {
     char c;
     NodoDoble ant, sig;
@@ -61,3 +65,4 @@ public class Problema5 {
         lista.mostrar();
     }
 }
+
