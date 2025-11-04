@@ -77,6 +77,39 @@ Cada programa demuestra un concepto clave en el uso de **pilas** dentro de la pr
 Practicar las operaciones **push**, **pop**, **peek** y **isEmpty**, comprendiendo cómo funcionan las **estructuras LIFO** y su aplicación práctica en problemas de programación básicos.
 
 ---
+# 🧱 Estructuras de Datos — Colas en Java
+
+Este repositorio contiene **3 programas en Java** que implementan distintas simulaciones y operaciones con **colas (Queue)**, utilizando la clase `LinkedList` para representar estructuras **FIFO** (*First In, First Out*).
+
+Cada programa está **documentado, comentado y funcional**, demostrando cómo aplicar colas en comparación, simulación de flujos y análisis estadístico.
+
+---
+
+## 🧩 Programas
+
+| Nº | Nombre del programa | Archivo (.java) |
+|----|----------------------|----------------|
+| 1 | Comparación de colas | [ColaComparacion.java](./ColaComparacion.java) |
+| 2 | Simulación de supermercado con carritos y cajas | [ColaSupermercado.java](./ColaSupermercado.java) |
+| 3 | Simulación de atención al cliente (Supermercado Esperanza) | [ColaAtencionClientes.java](./ColaAtencionClientes.java) |
+
+---
+
+## 🧠 Descripción General
+
+| Tema | Descripción | Conceptos clave |
+|------|--------------|----------------|
+| Comparación de colas | Determina si dos colas son idénticas en tamaño y contenido. | `Queue`, `equals`, `poll`, `offer` |
+| Supermercado con carritos y cajas | Simula la dinámica de clientes, carritos y cajas en un supermercado. | Colas paralelas, sincronización de recursos |
+| Atención al cliente (Esperanza) | Simula la atención con múltiples cajas y genera estadísticas de rendimiento. | Tiempos de espera, llegada de clientes, estadísticas |
+
+---
+
+## 🎯 Objetivo General
+
+Aplicar la estructura de datos **cola** en distintos contextos de simulación y comparación, desarrollando habilidades de modelado, análisis temporal y manejo de recursos en sistemas dinámicos.
+
+---
 
 ## 📚 Autor
 
