@@ -1,19 +1,21 @@
-# Ejercicios Parcticos
-## joel Adrian Caballero lugo 
+# 🧩 Ejercicios Prácticos  
+## 👨‍💻 Joel Adrián Caballero Lugo  
 
-# 💻 Estructura de Datos – Listas Enlazadas
+---
+
+# 💻 Estructura de Datos — Listas Enlazadas
 
 Este repositorio contiene **5 problemas en Java** que implementan distintos tipos de **listas enlazadas**:
-- Lista simple
-- Lista circular
-- Lista doblemente enlazada
-- Aplicaciones con polinomios y manejo de archivos
+- Lista simple  
+- Lista circular  
+- Lista doblemente enlazada  
+- Aplicaciones con polinomios y manejo de archivos  
 
 Cada problema se encuentra documentado y con código funcional.
 
 ---
 
-## 🧩 Problemas
+## 🧠 Problemas
 
 | Nº | Nombre del problema | Archivo (.txt) |
 |----|----------------------|----------------|
@@ -25,7 +27,7 @@ Cada problema se encuentra documentado y con código funcional.
 
 ---
 
-## 🧠 Descripción General
+## 🧩 Descripción General
 
 Cada programa demuestra un concepto clave en **Estructuras de Datos**, aplicando listas enlazadas para resolver distintos tipos de problemas.
 
@@ -37,6 +39,7 @@ Cada programa demuestra un concepto clave en **Estructuras de Datos**, aplicando
 | Circular | Recorrido sin fin | Polinomio circular |
 | Doble | Ordenamiento y recorrido bidireccional | Caracteres ordenados |
 
+---
 
 # 🧱 Estructuras de Datos — Pilas en Java
 
@@ -46,7 +49,7 @@ Cada ejercicio está **documentado, comentado y completamente funcional**, ideal
 
 ---
 
-## 🧩 Programas
+## 🧠 Programas
 
 | Nº | Nombre del programa | Archivo (.java) |
 |----|----------------------|----------------|
@@ -58,7 +61,7 @@ Cada ejercicio está **documentado, comentado y completamente funcional**, ideal
 
 ---
 
-## 🧠 Descripción General
+## 🧩 Descripción General
 
 Cada programa demuestra un concepto clave en el uso de **pilas** dentro de la programación estructurada y orientada a objetos con **Java**.
 
@@ -77,6 +80,7 @@ Cada programa demuestra un concepto clave en el uso de **pilas** dentro de la pr
 Practicar las operaciones **push**, **pop**, **peek** y **isEmpty**, comprendiendo cómo funcionan las **estructuras LIFO** y su aplicación práctica en problemas de programación básicos.
 
 ---
+
 # 🧱 Estructuras de Datos — Colas en Java
 
 Este repositorio contiene **3 programas en Java** que implementan distintas simulaciones y operaciones con **colas (Queue)**, utilizando la clase `LinkedList` para representar estructuras **FIFO** (*First In, First Out*).
@@ -85,7 +89,7 @@ Cada programa está **documentado, comentado y funcional**, demostrando cómo ap
 
 ---
 
-## 🧩 Programas
+## 🧠 Programas
 
 | Nº | Nombre del programa | Archivo (.java) |
 |----|----------------------|----------------|
@@ -95,13 +99,13 @@ Cada programa está **documentado, comentado y funcional**, demostrando cómo ap
 
 ---
 
-## 🧠 Descripción General
+## 🧩 Descripción General
 
 | Tema | Descripción | Conceptos clave |
 |------|--------------|----------------|
-| Comparación de colas | Determina si dos colas son idénticas en tamaño y contenido. | `Queue`, `equals`, `poll`, `offer` |
-| Supermercado con carritos y cajas | Simula la dinámica de clientes, carritos y cajas en un supermercado. | Colas paralelas, sincronización de recursos |
-| Atención al cliente (Esperanza) | Simula la atención con múltiples cajas y genera estadísticas de rendimiento. | Tiempos de espera, llegada de clientes, estadísticas |
+| Comparación de colas | Determina si dos colas son idénticas en tamaño y contenido | `Queue`, `equals`, `poll`, `offer` |
+| Supermercado con carritos y cajas | Simula la dinámica de clientes, carritos y cajas en un supermercado | Colas paralelas, sincronización de recursos |
+| Atención al cliente (Esperanza) | Simula la atención con múltiples cajas y genera estadísticas de rendimiento | Tiempos de espera, llegada de clientes, estadísticas |
 
 ---
 
@@ -113,6 +117,8 @@ Aplicar la estructura de datos **cola** en distintos contextos de simulación y 
 
 ## 📚 Autor
 
-**Adrián — Universidad Tecnológica del Norte de Guanajuato (UTNG)**  
-🗓️ *Práctica: Estructuras de Datos — Pilas en Java*  
+**Joel Adrián Caballero Lugo**  
+**Universidad Tecnológica del Norte de Guanajuato (UTNG)**  
+🗓️ *Práctica: Estructuras de Datos — Listas, Pilas y Colas en Java*
+
 
