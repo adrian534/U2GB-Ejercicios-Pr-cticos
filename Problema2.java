@@ -1,0 +1,96 @@
+package ejerciciosPracticos;
+import java.io.*;
+import java.util.Scanner;
+/**
+ *
+ * @author joel adrian caballlero lugo
+ */
+
+class NodoPalabra {
+    String palabra;
+    NodoPalabra siguiente;
+
+    public NodoPalabra(String palabra) {
+        this.palabra = palabra;
+        this.siguiente = null;
+    }
+}
+
+public class Problema2 {
+    private NodoPalabra inicio;
+
+    public void insertar(String palabra) {
+        NodoPalabra nuevo = new NodoPalabra(palabra);
+        if (inicio == null) inicio = nuevo;
+        else {
+            NodoPalabra aux = inicio;
+            while (aux.siguiente != null)
+                aux = aux.siguiente;
+            aux.siguiente = nuevo;
+        }
+    }
+
+    public void mostrar() {
+        NodoPalabra aux = inicio;
+        while (aux != null) {
+            System.out.print(aux.palabra + " ");
+            aux = aux.siguiente;
+        }
+        System.out.println();
+    }
+
+    public void eliminar(String palabra) {
+        while (inicio != null && inicio.palabra.equals(palabra)) {
+            inicio = inicio.siguiente;
+        }
+        NodoPalabra aux = inicio;
+        while (aux != null && aux.siguiente != null) {
+            if (aux.siguiente.palabra.equals(palabra)) {
+                aux.siguiente = aux.siguiente.siguiente;
+            } else {
+                aux = aux.siguiente;
+            }
+        }
+    }
+
+    public void escribirArchivo(String nombreArchivo) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new FileWriter(nombreArchivo));
+        NodoPalabra aux = inicio;
+        while (aux != null) {
+            bw.write(aux.palabra + " ");
+            aux = aux.siguiente;
+        }
+        bw.close();
+    }
+
+    public static void main(String[] args) throws IOException {
+        Problema2 lista = new Problema2();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nombre del archivo: ");
+        String nombreArchivo = sc.nextLine();
+
+        // Leer archivo
+        try (Scanner lector = new Scanner(new File(nombreArchivo))) {
+            while (lector.hasNext()) {
+                lista.insertar(lector.next());
+            }
+        }
+
+        System.out.println("Contenido leído:");
+        lista.mostrar();
+
+        System.out.print("Ingrese una palabra para eliminar: ");
+        String eliminar = sc.nextLine();
+        lista.eliminar(eliminar);
+
+        System.out.print("Ingrese una palabra para agregar: ");
+        String agregar = sc.nextLine();
+        lista.insertar(agregar);
+
+        System.out.println("Lista final:");
+        lista.mostrar();
+
+        lista.escribirArchivo(nombreArchivo);
+        System.out.println("Archivo actualizado exitosamente.");
+    }
+}
