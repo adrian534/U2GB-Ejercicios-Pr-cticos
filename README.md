@@ -17,13 +17,13 @@ Cada problema se encuentra documentado y con código funcional.
 
 ## 🧠 Problemas
 
-| Nº | Nombre del problema | Archivo (.txt) |
-|----|----------------------|----------------|
-| 1 | Lista enlazada con números enteros (insertar y eliminar) | [Problema1.java](./Problema1.java) |
-| 2 | Lista enlazada de palabras (lectura y escritura en archivo) | [Problema2.java](./Problema2.java) |
-| 3 | Representación y evaluación de un polinomio | [Problema3.java](./Problema3.java) |
-| 4 | Lista circular de términos de un polinomio | [Problema4.java](./Problema4.java) |
-| 5 | Lista doblemente enlazada de caracteres (ordenamiento alfabético) | [Problema5.java](./Problema5.java) |
+| Nº | Nombre del problema | Archivo (.java) | 🎥 Video |
+|----|----------------------|-----------------|----------|
+| 1 | Lista enlazada con números enteros (insertar y eliminar) | [Problema1.java](./Problema1.java) | [Ver video](https://youtu.be/ejemplo1) |
+| 2 | Lista enlazada de palabras (lectura y escritura en archivo) | [Problema2.java](./Problema2.java) | [Ver video](https://youtu.be/ejemplo2) |
+| 3 | Representación y evaluación de un polinomio | [Problema3.java](./Problema3.java) | [Ver video](https://youtu.be/ejemplo3) |
+| 4 | Lista circular de términos de un polinomio | [Problema4.java](./Problema4.java) | [Ver video](https://youtu.be/ejemplo4) |
+| 5 | Lista doblemente enlazada de caracteres (ordenamiento alfabético) | [Problema5.java](./Problema5.java) | [Ver video](https://youtu.be/ejemplo5) |
 
 ---
 
@@ -51,13 +51,13 @@ Cada ejercicio está **documentado, comentado y completamente funcional**, ideal
 
 ## 🧠 Programas
 
-| Nº | Nombre del programa | Archivo (.java) |
-|----|----------------------|----------------|
-| 1 | Manejo básico de pila (push y pop) | [PilaBasica.java](./PilaBasica.java) |
-| 2 | Registro de nombres con pila | [PilaNombres.java](./PilaNombres.java) |
-| 3 | Comprobación de pila vacía | [PilaVacia.java](./PilaVacia.java) |
-| 4 | Inversión de texto con pila de caracteres | [PilaInvertirTexto.java](./PilaInvertirTexto.java) |
-| 5 | Conversión de decimal a binario con pila | [PilaDecimalBinario.java](./PilaDecimalBinario.java) |
+| Nº | Nombre del programa | Archivo (.java) | 🎥 Video |
+|----|----------------------|-----------------|----------|
+| 1 | Manejo básico de pila (push y pop) | [PilaBasica.java](./PilaBasica.java) | [Ver video](https://youtu.be/pila1) |
+| 2 | Registro de nombres con pila | [PilaNombres.java](./PilaNombres.java) | [Ver video](https://youtu.be/pila2) |
+| 3 | Comprobación de pila vacía | [PilaVacia.java](./PilaVacia.java) | [Ver video](https://youtu.be/pila3) |
+| 4 | Inversión de texto con pila de caracteres | [PilaInvertirTexto.java](./PilaInvertirTexto.java) | [Ver video](https://youtu.be/pila4) |
+| 5 | Conversión de decimal a binario con pila | [PilaDecimalBinario.java](./PilaDecimalBinario.java) | [Ver video](https://youtu.be/pila5) |
 
 ---
 
@@ -75,12 +75,6 @@ Cada programa demuestra un concepto clave en el uso de **pilas** dentro de la pr
 
 ---
 
-## 🎯 Objetivo General
-
-Practicar las operaciones **push**, **pop**, **peek** y **isEmpty**, comprendiendo cómo funcionan las **estructuras LIFO** y su aplicación práctica en problemas de programación básicos.
-
----
-
 # 🧱 Estructuras de Datos — Colas en Java
 
 Este repositorio contiene **3 programas en Java** que implementan distintas simulaciones y operaciones con **colas (Queue)**, utilizando la clase `LinkedList` para representar estructuras **FIFO** (*First In, First Out*).
@@ -91,11 +85,11 @@ Cada programa está **documentado, comentado y funcional**, demostrando cómo ap
 
 ## 🧠 Programas
 
-| Nº | Nombre del programa | Archivo (.java) |
-|----|----------------------|----------------|
-| 1 | Comparación de colas | [ColaComparacion.java](./ColaComparacion.java) |
-| 2 | Simulación de supermercado con carritos y cajas | [ColaSupermercado.java](./ColaSupermercado.java) |
-| 3 | Simulación de atención al cliente (Supermercado Esperanza) | [ColaAtencionClientes.java](./ColaAtencionClientes.java) |
+| Nº | Nombre del programa | Archivo (.java) | 🎥 Video |
+|----|----------------------|-----------------|----------|
+| 1 | Comparación de colas | [ColaComparacion.java](./ColaComparacion.java) | [Ver video](https://youtu.be/cola1) |
+| 2 | Simulación de supermercado con carritos y cajas | [ColaSupermercado.java](./ColaSupermercado.java) | [Ver video](https://youtu.be/cola2) |
+| 3 | Simulación de atención al cliente (Supermercado Esperanza) | [ColaAtencionClientes.java](./ColaAtencionClientes.java) | [Ver video](https://youtu.be/cola3) |
 
 ---
 
@@ -115,9 +109,10 @@ Aplicar la estructura de datos **cola** en distintos contextos de simulación y 
 
 ---
 
-## 📚 Autor
+## 📚 Autor  
+👨‍💻 **Joel Adrián Caballero Lugo**
 
-**Joel Adrián Caballero Lugo**  
+
 **Universidad Tecnológica del Norte de Guanajuato (UTNG)**  
 🗓️ *Práctica: Estructuras de Datos — Listas, Pilas y Colas en Java*
 
